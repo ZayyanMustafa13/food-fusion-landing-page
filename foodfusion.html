@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food Fusion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">  
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+      <!-- nav  -->
+   <nav> 
+    <!-- FIRST LINE OF NAV  -->
+    <div class="bg-dark" >
+    <div class="text-light p-3 w-100  d-flex display-inline-block container justify-content-space-between  " >
+    <div class="ms-5 w-52  " >
+        <a class="navbar-brand fs-5 me-5 " href="#">food fusion </a>        
+        <a class="navbar-brand fs-5 me-5 " href="#">Healthy fusion </a>        
+        <a class="navbar-brand fs-5 me-5 " href="#">food Kids</a>
+    </div>
+
+       <!-- Social Links  -->
+   <div class="ms-auto me-5  " >
+    <a href="#"><i class="ms-3 fa-brands fa-facebook fa-lg" style="color: #ffff;" ></i></a>
+    <a href="#"><i class="ms-3 fa-brands fa-x-twitter fa-lg" style="color: #ffff;" ></i></a>
+    <a href="#"><i class="ms-3 fa-brands fa-youtube fa-lg" style="color: #ffff;" ></i></a>
+    <a href="#"><i class="ms-3 fa-brands fa-instagram fa-lg" style="color: #ffff;" ></i></a>
+   </div>
+
+      <!-- Registration  -->
+      <div class="me-3" >
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-user"></i>  LOGIN |</a>
+      <a class="navbar-brand" href="#">REGISTER</a>
+    </div>
+   </div>
+    </div>
+    
+    <!-- SECOND LINE OF NAV  -->
+    <!-- ICONE OF BRAND   -->
+    <div class="mt-4 d-flex display-inline-block ms-auto container" >  
+    <img
+      src="data:image/png;base64,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"
+      alt="Food Fusion Icon"
+      height="150px" width="150px" 
+    />
+    <!-- SUB PROPERTIES -->
+    <div class="pt-5 fs-5 ms-auto mt-4" >
+  <a class="navbar-brand ms-3" href="#">RAMDAN</a>
+  <a class="navbar-brand ms-3" href="#">DRINKS</a>
+  <a class="navbar-brand ms-3" href="#">DISH TYPE</a>
+  <a class="navbar-brand ms-3" href="#">BREAK FAST</a>
+  <a class="navbar-brand ms-3" href="#">DESSERT</a>
+  <a class="navbar-brand ms-3" href="#">LUNCH/DINNER</a>
+  <a class="navbar-brand ms-4" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+</div>
+
+</div>
+ <!-- SEARCHING BAR  -->
+ <img
+ src=""
+ alt="Food Image" height="450px" width="auto"
+ /> 
+ 
+</nav>
+
+<!-- Body  -->\
+ <div class="container bg-dark text-light " >
+    <h3>Our <span>Recipe</span><br><br>
+    <a class="navbar-brand" href="#"> Most Recent </a> / 
+    <a class="navbar-brand" href="#">  Most Viewed </a> /
+    <a class="navbar-brand" href="#">  Most Favourite </a> /
+    <a class="navbar-brand" href="#"> All </a>  
+     </h3>
+     <!-- Upper Cards  -->
+       <div class="mt-5 row" >
+        <div class="col-sm-12 col-md-12 ">
+          <div class="card" >
+            <img class="rounded"  src="https://www.foodfusion.com/wp-content/uploads/2024/02/FB_06-1.jpg?v=1708087941"/>
+            <h3 class="card-title text-start ms-3 mt-3">Hasan</h3>
+          <div class="card-body text-start ms-3" >MEEEEEEEEEEE</div>
+          </div>
+        </div>
+        <!-- Cards Second Area in which 4 cards appers  -->
+        <div class="col">
+       <div class="row" >
+       <div class="col-6">
+        <div class="card" style="margin-top: 2%;" >
+          <img class="rounded"  src="https://www.foodfusion.com/wp-content/uploads/2023/11/YT_03-300x225.jpg?v=1701756380"/>
+         <a href="#" class="card-body navbar-brand " >MEEEEEEEEEEE</a>
+        </div>
+       </div>
+       <div class="col-6">
+        <div class="card" style="margin-top: 2%;">
+          <img class="rounded"  src="https://www.foodfusion.com/wp-content/uploads/2024/01/YT_03-1-300x225.jpg?v=1707739372"/>
+         <a href="#" class="card-body navbar-brand " >MEEEEEEEEEEE</a>
+        </div>
+       </div>
+       <div class="col-6">
+        <div class="card mt-3" >
+          <img class="rounded"  src="https://www.foodfusion.com/wp-content/uploads/2022/11/YT-4-300x225.jpg?v=1707905929"/>
+         <a href="#" class="card-body navbar-brand " >MEEEEEEEEEEE</a>
+        </div>
+       </div>
+       <div class="col-6">
+        <div class="card mt-3" >
+          <img class="rounded"  src="https://www.foodfusion.com/wp-content/uploads/2023/07/Website-Grab-300x225.jpg?v=1707828011"/>
+         <a href="#" class="card-body navbar-brand " >MEEEEEEEEEEE</a>
+        </div>
+       </div>
+
+       </div>
+
+        </div>
+      </div>
+
+      <!-- Lower Cards  -->
+    <div class=" mt-5 row">
+    <div class="card mt-1  col-sm-10 col-6  " style="width: 24%; margin-left: .5%;" >
+      <img class="rounded"
+      src="https://www.foodfusion.com/wp-content/uploads/2024/01/FB_02-300x225.jpg?v=1707730828"
+      />
+      <div class="card-body">
+        <!-- Image Caption  -->
+    <div class="mt-4">
+    <a href="#" class=" navbar-brand">Hasan Razaaa</a>
+    </div>
+  </div>
+</div>
+    <div class="card mt-1  col-sm-10 col-6  " style="width: 24%; margin-left: 1%;" >
+      <img class="rounded"
+      src="https://www.foodfusion.com/wp-content/uploads/2024/02/GRAB-02-FB-300x225.jpg?v=1707802345"
+      />
+        <div class="card-body">
+          <!-- Image Caption  -->
+    <div class="mt-4">
+    <a href="#" class=" navbar-brand">Hasan Razaaa</a>
+    </div>
+  </div>
+ </div>
+    <div class="card mt-1  col-sm-10 col-6  " style="width: 24%; margin-left: 1%;" >
+      <img class="rounded"
+      src="https://www.foodfusion.com/wp-content/uploads/2023/12/YT-Grab-V2-300x225.jpg?v=1703664756"
+      />
+        <div class="card-body">
+          <!-- Image Caption  -->
+    <div class="mt-4">
+    <a href="#" class=" navbar-brand">Hasan Razaaa</a>
+    </div>
+  </div>
+ </div>
+    <div class="card mt-1  col-sm-10 col-6  " style="width: 24%; margin-left: 1%;" >
+      <img class="rounded"
+      src="https://www.foodfusion.com/wp-content/uploads/2024/01/FB-05-300x225.jpg?v=1707301409"
+      />
+        <div class="card-body">
+          <!-- Image Caption  -->
+    <div class="mt-4">
+    <a href="#" class=" navbar-brand">Hasan Razaaa</a>
+    </div>
+  </div>
+
+    </div>
+   </div>
+<hr>
+ <!-- Button  -->
+ <div class="row" >
+  <div class="col-sm-10 col-md-8 col-lg-6 col-xl-6" >
+  <a href="#"><button class="btn btn-warning" type="button">Load More</button></a>
+</div>
+ </div>
+
+ <!-- Trending Section  -->
+ <h3>Trending on <span> Food Fusion</span></h3>
+ <div class="mt-5 row">
+  <div class="card mt-1 col-3 " >
+    <img class="rounded" 
+    src="https://www.foodfusion.com/wp-content/uploads/2021/07/ID-R01794-Mutton-boneless-Karahi.00_02_20_29.Still003-300x225.jpg?v=1627642606"
+    />
+    <div class="mt-4 card-body">
+  <a href="#" class=" navbar-brand">Hasan Razaaa</a>
+</div>
+</div>
+  <div class="card mt-1 col-3 " >
+    <img class="rounded" 
+    src="https://www.foodfusion.com/wp-content/uploads/2023/05/YT_01-3-300x225.jpg?v=1686660324"
+    />
+      <div class="mt-4 card-body">
+  <a href="#" class=" navbar-brand">Hasan Razaaa</a>
+</div>
+</div>
+  <div class="card mt-1 col-3 " >
+    <img class="rounded" 
+    src="https://www.foodfusion.com/wp-content/uploads/2021/09/YT-Grab-1-1-300x225.jpg?v=1631788767"
+    />
+      <div class="mt-4 card-body">
+  <a href="#" class=" navbar-brand">Hasan Razaaa</a>
+</div>
+</div>
+  <div class="card mt-1 col-3 " >
+    <img class="rounded" 
+    src="https://www.foodfusion.com/wp-content/uploads/2019/06/Triangle-Paratha-Recipe-by-Food-fusion-4-300x225.jpg?v=1587763399"
+    />
+      <div class="mt-4 card-body">
+  <a href="#" class=" navbar-brand">Hasan Razaaa</a>
+</div>
+
+  </div>
+  <div class="card mt-1 col-3 " >
+    <img class="rounded" 
+    src="https://www.foodfusion.com/wp-content/uploads/2023/05/yt3-6-300x225.jpg?v=1687323613"
+    />
+      <div class="mt-4 card-body">
+  <a href="#" class=" navbar-brand">Hasan Razaaa</a>
+</div>
+
+  </div>
+  <div class="card mt-1 col-3 " >
+    <img class="rounded" 
+    src="https://www.foodfusion.com/wp-content/uploads/2020/12/Lebanese-Hashweh-Recipe-Recipe-by-Food-fusion-5-300x225.jpg?v=1607575390"
+    />
+      <div class="mt-4 card-body">
+  <a href="#" class=" navbar-brand">Hasan Razaaa</a>
+</div>
+
+  </div>
+  <div class="card mt-1 col-3 " >
+    <img class="rounded" 
+    src="https://www.foodfusion.com/wp-content/uploads/2023/03/YT44-300x225.jpg?v=1680668015"
+    />
+      <div class="mt-4 card-body">
+  <a href="#" class=" navbar-brand">Hasan Razaaa</a>
+</div>
+
+  </div>
+  <div class="card mt-1 col-3 " >
+    <img class="rounded" 
+    src="https://www.foodfusion.com/wp-content/uploads/2021/05/Watermelon-ball-punch-Recipe-by-Food-fusion-6-300x225.jpg?v=1620034859"
+    />
+      <div class="mt-4 card-body">
+  <a href="#" class=" navbar-brand">Hasan Razaaa</a>
+</div>
+
+  </div>
+ </div>
+ 
+ <!-- Footer    -->
+<div class="container bg-dark text-light" >
+  <div class="row" >
+   <div class="col-xs-2 col-sm-4 col-md-3 col-lg-3" >
+  <a href="#" class="navbar-brand">  <li>Zayyan</li></a>
+  <a href="#" class="navbar-brand"> <li>Zayyan</li></a>
+  <a href="#" class="navbar-brand"> <li>Zayyan</li></a>
+  <a href="#" class="navbar-brand"> <li>Zayyan</li></a>
+  <a href="#" class="navbar-brand"> <li>Zayyan</li></a>
+  <a href="#" class="navbar-brand"> <li>Zayyan</li></a>
+  <a href="#" class="navbar-brand"> <li>Zayyan</li></a>
+  <a href="#" class="navbar-brand"> <li>Zayyan</li></a>
+  <a href="#" class="navbar-brand"> <li>Zayyan</li></a>
+  <a href="#" class="navbar-brand"> <li>Zayyan</li></a>
+   </div>
+   <div class="col-xs-2 col-sm-4 col-md-3 col-lg-3" >
+    <a href="#" class="navbar-brand" > <li>Mustafa</li></a>
+    <a href="#" class="navbar-brand" > <li>Mustafa</li></a>
+    <a href="#" class="navbar-brand" > <li>Mustafa</li></a>
+    <a href="#" class="navbar-brand" > <li>Mustafa</li></a>
+    <a href="#" class="navbar-brand" > <li>Mustafa</li></a>
+    <a href="#" class="navbar-brand" > <li>Mustafa</li></a>
+    <a href="#" class="navbar-brand" > <li>Mustafa</li></a>
+    <a href="#" class="navbar-brand" > <li>Mustafa</li></a>
+    <a href="#" class="navbar-brand" > <li>Mustafa</li></a>
+    <a href="#" class="navbar-brand" > <li>Mustafa</li></a>
+   </div>
+   <div class="col-xs-2 col-sm-4 col-md-3 col-lg-3" >
+    <a href="#" class="navbar-brand" > <li>Hasan</li></a>
+    <a href="#" class="navbar-brand"> <li>Hasan</li></a>
+    <a href="#" class="navbar-brand"> <li>Hasan</li></a>
+    <a href="#" class="navbar-brand"> <li>Hasan</li></a>
+    <a href="#" class="navbar-brand"> <li>Hasan</li></a>
+    <a href="#" class="navbar-brand"> <li>Hasan</li></a>
+    <a href="#" class="navbar-brand"> <li>Hasan</li></a>
+    <a href="#" class="navbar-brand"> <li>Hasan</li></a>
+    <a href="#" class="navbar-brand"> <li>Hasan</li></a>
+    <a href="#" class="navbar-brand"> <li>Hasan</li></a>
+   </div>
+   <div class="col-xs-2 col-sm-4 col-md-3 col-lg-3" >
+    <a href="#" class="navbar-brand" > <li>Raza</li></a>
+    <a href="#" class="navbar-brand"> <li>Raza</li></a>
+    <a href="#" class="navbar-brand"> <li>Raza</li></a>
+    <a href="#" class="navbar-brand"> <li>Raza</li></a>
+    <a href="#" class="navbar-brand"> <li>Raza</li></a>
+    <a href="#" class="navbar-brand"> <li>Raza</li></a>
+    <a href="#" class="navbar-brand"> <li>Raza</li></a>
+    <a href="#" class="navbar-brand"> <li>Raza</li></a>
+    <a href="#" class="navbar-brand"> <li>Raza</li></a>
+    <a href="#" class="navbar-brand"> <li>Raza</li></a>
+
+   </div>
+   <div class="col-xs-2 col-sm-4 col-lg-6 col-md-8 col-lg-6" >
+
+   </div>
+   
+  </div>
+</div>
+
+</div>
+</body>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
